@@ -14,11 +14,15 @@ Download using the [GitHub .zip download](https://github.com/dracula/ghostwriter
 
 ##### Copy theme to ghostwriter config directory
 
-On UNIX-based systems (GNU/Linux, macOS, BSD-variants) the following should work:
+On most UNIX-based systems the following should work:
 
 `mkdir -p ~/.config/ghostwriter/themes/Dracula && cp ghostwriter/theme.cfg ~/.config/ghostwriter/themes/Dracula/theme.cfg`
+If that does not work on your machine, manually create directory `Dracula` in ghostwriter config directory `themes` and copy `theme.cfg` there:
 
-Otherwise manually create directory `Dracula` in ghostwriter config directory `theme` and copy `theme.cfg` there
+- Windows: `C:\Users<your_user_name>\AppData\Roaming\ghostwriter\themes`
+- Windows portable mode: `<your_ghostwriter_portable_folder>\data\themes`
+- GNU/Linux: `~/.config/ghostwriter/themes`
+- macOS: `~/Library/Application Support/ghostwriter/themes`
 
 ##### Activate theme in ghostwriter
 
