@@ -10,13 +10,12 @@ If you are a git user, you can install the theme and keep up to date by cloning 
 
 Download using the [GitHub .zip download](https://github.com/dracula/ghostwriter/archive/master.zip) option and unzip them.
 
-#### Activate theme
-
-##### Copy theme to ghostwriter config directory
+#### Copy theme to ghostwriter config directory
 
 On most UNIX-based systems the following should work:
 
 `mkdir -p ~/.config/ghostwriter/themes/Dracula && cp ghostwriter/theme.cfg ~/.config/ghostwriter/themes/Dracula/theme.cfg`
+
 If that does not work on your machine, manually create directory `Dracula` in ghostwriter config directory `themes` and copy `theme.cfg` there:
 
 - Windows: `C:\Users<your_user_name>\AppData\Roaming\ghostwriter\themes`
@@ -24,8 +23,8 @@ If that does not work on your machine, manually create directory `Dracula` in gh
 - GNU/Linux: `~/.config/ghostwriter/themes`
 - macOS: `~/Library/Application Support/ghostwriter/themes`
 
-##### Activate theme in ghostwriter
+#### Activate theme in ghostwriter
 
 Go to `Settings | Themes...`, select `Dracula`
 
-![Activate Theme](activate-theme.png)
+![Activate Theme](https://raw.githubusercontent.com/dracula/ghostwriter/master/activate-theme.png)
