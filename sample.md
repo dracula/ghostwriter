@@ -28,4 +28,4 @@ Sample text here...
 
 ## Links
 
-[My GitHub Page](http://https://github.com/totoroot)
+[My GitHub Page](https://github.com/totoroot)

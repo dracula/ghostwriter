@@ -14,9 +14,9 @@ Download using the [GitHub .zip download](https://github.com/dracula/ghostwriter
 
 On most UNIX-based systems the following should work:
 
-`mkdir -p ~/.config/ghostwriter/themes/Dracula && cp ghostwriter/theme.cfg ~/.config/ghostwriter/themes/Dracula/theme.cfg`
+`mkdir -p ~/.config/ghostwriter/themes && cp ghostwriter/Dracula.json ~/.config/ghostwriter/themes/Dracula.json`
 
-If that does not work on your machine, manually create directory `Dracula` in ghostwriter config directory `themes` and copy `theme.cfg` there:
+If that does not work on your machine, manually copy `Dracula.json` to the themes directory in the ghostwriter config directory:
 
 - Windows: `C:\Users<your_user_name>\AppData\Roaming\ghostwriter\themes`
 - Windows portable mode: `<your_ghostwriter_portable_folder>\data\themes`
